@@ -1,7 +1,8 @@
 # CMake generated Testfile for 
-# Source directory: /home/andromeda/Documents/catkin_ws/src
-# Build directory: /home/andromeda/Documents/catkin_ws/build
+# Source directory: /home/andromeda/GitHub/catkin_ws/src
+# Build directory: /home/andromeda/GitHub/catkin_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
+subdirs("basics")

@@ -1,0 +1,8 @@
+prefix=/home/andromeda/GitHub/catkin_ws/devel
+
+Name: basics
+Description: Description of basics
+Version: 0.0.0
+Cflags: -I/home/andromeda/GitHub/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

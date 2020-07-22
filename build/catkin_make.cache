@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/andromeda/Documents/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/andromeda/Documents/catkin_ws/install -G Unix Makefiles
+basics
+-DCATKIN_DEVEL_PREFIX=/home/andromeda/GitHub/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/andromeda/GitHub/catkin_ws/install -G Unix Makefiles
