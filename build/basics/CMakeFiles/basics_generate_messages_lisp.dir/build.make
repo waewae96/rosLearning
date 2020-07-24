@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/andromeda/GitHub/catkin_ws/build
 include basics/CMakeFiles/basics_generate_messages_lisp.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_lisp: /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp
+basics/CMakeFiles/basics_generate_messages_lisp: /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp
 
 
 /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
@@ -61,8 +62,14 @@ basics/CMakeFiles/basics_generate_messages_lisp: /home/andromeda/GitHub/catkin_w
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Lisp code from basics/Complex.msg"
 	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/msg
 
+/home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp: /opt/ros/melodic/lib/genlisp/gen_lisp.py
+/home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp: /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Lisp code from basics/WordCount.srv"
+	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genlisp/cmake/../../../lib/genlisp/gen_lisp.py /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/srv
+
 basics_generate_messages_lisp: basics/CMakeFiles/basics_generate_messages_lisp
 basics_generate_messages_lisp: /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp
+basics_generate_messages_lisp: /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp
 basics_generate_messages_lisp: basics/CMakeFiles/basics_generate_messages_lisp.dir/build.make
 
 .PHONY : basics_generate_messages_lisp

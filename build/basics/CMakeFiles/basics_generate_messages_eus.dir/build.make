@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/andromeda/GitHub/catkin_ws/build
 include basics/CMakeFiles/basics_generate_messages_eus.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/msg/Complex.l
+basics/CMakeFiles/basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/srv/WordCount.l
 basics/CMakeFiles/basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/manifest.l
 
 
@@ -62,12 +63,18 @@ basics/CMakeFiles/basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from basics/Complex.msg"
 	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/msg
 
+/home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/srv/WordCount.l: /opt/ros/melodic/lib/geneus/gen_eus.py
+/home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/srv/WordCount.l: /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from basics/WordCount.srv"
+	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/srv
+
 /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/manifest.l: /opt/ros/melodic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for basics"
 	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics basics std_msgs
 
 basics_generate_messages_eus: basics/CMakeFiles/basics_generate_messages_eus
 basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/msg/Complex.l
+basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/srv/WordCount.l
 basics_generate_messages_eus: /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/manifest.l
 basics_generate_messages_eus: basics/CMakeFiles/basics_generate_messages_eus.dir/build.make
 

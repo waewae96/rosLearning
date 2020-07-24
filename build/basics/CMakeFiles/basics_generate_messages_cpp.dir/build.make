@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/andromeda/GitHub/catkin_ws/build
 include basics/CMakeFiles/basics_generate_messages_cpp.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_cpp: /home/andromeda/GitHub/catkin_ws/devel/include/basics/Complex.h
+basics/CMakeFiles/basics_generate_messages_cpp: /home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h
 
 
 /home/andromeda/GitHub/catkin_ws/devel/include/basics/Complex.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,16 @@ basics/CMakeFiles/basics_generate_messages_cpp: /home/andromeda/GitHub/catkin_ws
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from basics/Complex.msg"
 	cd /home/andromeda/GitHub/catkin_ws/src/basics && /home/andromeda/GitHub/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/include/basics -e /opt/ros/melodic/share/gencpp/cmake/..
 
+/home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h: /opt/ros/melodic/lib/gencpp/gen_cpp.py
+/home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h: /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv
+/home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h: /opt/ros/melodic/share/gencpp/msg.h.template
+/home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h: /opt/ros/melodic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from basics/WordCount.srv"
+	cd /home/andromeda/GitHub/catkin_ws/src/basics && /home/andromeda/GitHub/catkin_ws/build/catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/include/basics -e /opt/ros/melodic/share/gencpp/cmake/..
+
 basics_generate_messages_cpp: basics/CMakeFiles/basics_generate_messages_cpp
 basics_generate_messages_cpp: /home/andromeda/GitHub/catkin_ws/devel/include/basics/Complex.h
+basics_generate_messages_cpp: /home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h
 basics_generate_messages_cpp: basics/CMakeFiles/basics_generate_messages_cpp.dir/build.make
 
 .PHONY : basics_generate_messages_cpp

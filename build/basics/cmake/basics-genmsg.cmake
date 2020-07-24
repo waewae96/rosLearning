@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "basics: 1 messages, 0 services")
+message(STATUS "basics: 1 messages, 1 services")
 
 set(MSG_I_FLAGS "-Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg;-Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg")
 
@@ -22,6 +22,11 @@ add_custom_target(_basics_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "basics" "/home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg" ""
 )
 
+get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" NAME_WE)
+add_custom_target(_basics_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "basics" "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" ""
+)
+
 #
 #  langs = gencpp;geneus;genlisp;gennodejs;genpy
 #
@@ -36,6 +41,12 @@ _generate_msg_cpp(basics
 )
 
 ### Generating Services
+_generate_srv_cpp(basics
+  "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/basics
+)
 
 ### Generating Module File
 _generate_module_cpp(basics
@@ -50,6 +61,8 @@ add_dependencies(basics_generate_messages basics_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg" NAME_WE)
+add_dependencies(basics_generate_messages_cpp _basics_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" NAME_WE)
 add_dependencies(basics_generate_messages_cpp _basics_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -69,6 +82,12 @@ _generate_msg_eus(basics
 )
 
 ### Generating Services
+_generate_srv_eus(basics
+  "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/basics
+)
 
 ### Generating Module File
 _generate_module_eus(basics
@@ -83,6 +102,8 @@ add_dependencies(basics_generate_messages basics_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg" NAME_WE)
+add_dependencies(basics_generate_messages_eus _basics_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" NAME_WE)
 add_dependencies(basics_generate_messages_eus _basics_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -102,6 +123,12 @@ _generate_msg_lisp(basics
 )
 
 ### Generating Services
+_generate_srv_lisp(basics
+  "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/basics
+)
 
 ### Generating Module File
 _generate_module_lisp(basics
@@ -116,6 +143,8 @@ add_dependencies(basics_generate_messages basics_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg" NAME_WE)
+add_dependencies(basics_generate_messages_lisp _basics_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" NAME_WE)
 add_dependencies(basics_generate_messages_lisp _basics_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -135,6 +164,12 @@ _generate_msg_nodejs(basics
 )
 
 ### Generating Services
+_generate_srv_nodejs(basics
+  "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/basics
+)
 
 ### Generating Module File
 _generate_module_nodejs(basics
@@ -149,6 +184,8 @@ add_dependencies(basics_generate_messages basics_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg" NAME_WE)
+add_dependencies(basics_generate_messages_nodejs _basics_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" NAME_WE)
 add_dependencies(basics_generate_messages_nodejs _basics_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -168,6 +205,12 @@ _generate_msg_py(basics
 )
 
 ### Generating Services
+_generate_srv_py(basics
+  "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/basics
+)
 
 ### Generating Module File
 _generate_module_py(basics
@@ -182,6 +225,8 @@ add_dependencies(basics_generate_messages basics_generate_messages_py)
 
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg" NAME_WE)
+add_dependencies(basics_generate_messages_py _basics_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv" NAME_WE)
 add_dependencies(basics_generate_messages_py _basics_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

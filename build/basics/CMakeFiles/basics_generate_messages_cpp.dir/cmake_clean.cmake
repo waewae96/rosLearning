@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/basics_generate_messages_cpp"
   "/home/andromeda/GitHub/catkin_ws/devel/include/basics/Complex.h"
+  "/home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,13 +1,20 @@
 # Hashes of file build rules.
 c7459e1c8aa79a2c60f84d530ca82701 /home/andromeda/GitHub/catkin_ws/devel/include/basics/Complex.h
+3112b23be9250fc082dca95f058017f4 /home/andromeda/GitHub/catkin_ws/devel/include/basics/WordCount.h
 adfaea6972126eda91cca16204d63d4e /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
 fc1aeed32c59723b256f71f0b75460f7 /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/__init__.py
+7d61025ed9d93391fcde1b9e6c6b1fc6 /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
+b4b805ab5d2737d55a83e2c958320233 /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/__init__.py
 89cc2b1566a9c0c8f795a8673e74e81f /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/msg/Complex.lisp
+b236a31ab2c19ba749bea4b8ed9ba58e /home/andromeda/GitHub/catkin_ws/devel/share/common-lisp/ros/basics/srv/WordCount.lisp
 4886025d6e966280e3282080e63ee2be /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/msg/Complex.js
+22cf793a6281c43effc48dd188b12e16 /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/srv/WordCount.js
 a7b262314463cbd4361069e992ac3f79 /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/manifest.l
 cce760d043e4ad98a89f001d9dfb8608 /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/msg/Complex.l
+15fbff11770bb409cc118c93e015eeec /home/andromeda/GitHub/catkin_ws/devel/share/roseus/ros/basics/srv/WordCount.l
 da097a6b6cd9f12f80704d9223d4fff3 CMakeFiles/clean_test_results
 4c9ed701f9b36587d996d677e148ea0c basics/CMakeFiles/_basics_generate_messages_check_deps_Complex
+95e3975a4061b0a5c97ee00b722d482e basics/CMakeFiles/_basics_generate_messages_check_deps_WordCount
 1eea474354c36bfba889aa3f630b51eb basics/CMakeFiles/basics_generate_messages_cpp
 1eea474354c36bfba889aa3f630b51eb basics/CMakeFiles/basics_generate_messages_eus
 1eea474354c36bfba889aa3f630b51eb basics/CMakeFiles/basics_generate_messages_lisp

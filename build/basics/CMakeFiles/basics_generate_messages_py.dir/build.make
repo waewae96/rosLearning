@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/andromeda/GitHub/catkin_ws/build
 include basics/CMakeFiles/basics_generate_messages_py.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
+basics/CMakeFiles/basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
 basics/CMakeFiles/basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/__init__.py
+basics/CMakeFiles/basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/__init__.py
 
 
 /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ basics/CMakeFiles/basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG basics/Complex"
 	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg
 
+/home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py: /opt/ros/melodic/lib/genpy/gensrv_py.py
+/home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py: /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV basics/WordCount"
+	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv
+
 /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
 /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for basics"
+/home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/__init__.py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for basics"
 	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg --initpy
+
+/home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /opt/ros/melodic/lib/genpy/genmsg_py.py
+/home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
+/home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/__init__.py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for basics"
+	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv --initpy
 
 basics_generate_messages_py: basics/CMakeFiles/basics_generate_messages_py
 basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/_Complex.py
+basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/_WordCount.py
 basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/msg/__init__.py
+basics_generate_messages_py: /home/andromeda/GitHub/catkin_ws/devel/lib/python2.7/dist-packages/basics/srv/__init__.py
 basics_generate_messages_py: basics/CMakeFiles/basics_generate_messages_py.dir/build.make
 
 .PHONY : basics_generate_messages_py

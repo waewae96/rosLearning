@@ -18,4 +18,3 @@ words = ' '.join(sys.argv[1:])
 word_count = word_counter(words)
 
 print words, '->', word_count.count
-

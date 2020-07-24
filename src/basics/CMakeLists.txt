@@ -56,11 +56,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  WordCount.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -72,7 +71,7 @@ add_message_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
-  std_msgs  # Or other packages containing msgs
+  std_msgs
 )
 
 ################################################
@@ -81,7 +80,7 @@ generate_messages(
 
 ## To declare and build dynamic reconfigure parameters within this
 ## package, follow these steps:
-## * In the file package.xml:
+## *  the file package.xml:
 ##   * add a build_depend and a exec_depend tag for "dynamic_reconfigure"
 ## * In this file (CMakeLists.txt):
 ##   * add "dynamic_reconfigure" to

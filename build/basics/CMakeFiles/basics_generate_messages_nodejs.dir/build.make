@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/andromeda/GitHub/catkin_ws/build
 include basics/CMakeFiles/basics_generate_messages_nodejs.dir/progress.make
 
 basics/CMakeFiles/basics_generate_messages_nodejs: /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/msg/Complex.js
+basics/CMakeFiles/basics_generate_messages_nodejs: /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/srv/WordCount.js
 
 
 /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/msg/Complex.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ basics/CMakeFiles/basics_generate_messages_nodejs: /home/andromeda/GitHub/catkin
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from basics/Complex.msg"
 	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/andromeda/GitHub/catkin_ws/src/basics/msg/Complex.msg -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/msg
 
+/home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/srv/WordCount.js: /opt/ros/melodic/lib/gennodejs/gen_nodejs.py
+/home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/srv/WordCount.js: /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/andromeda/GitHub/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from basics/WordCount.srv"
+	cd /home/andromeda/GitHub/catkin_ws/build/basics && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/andromeda/GitHub/catkin_ws/src/basics/srv/WordCount.srv -Ibasics:/home/andromeda/GitHub/catkin_ws/src/basics/msg -Istd_msgs:/opt/ros/melodic/share/std_msgs/cmake/../msg -p basics -o /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/srv
+
 basics_generate_messages_nodejs: basics/CMakeFiles/basics_generate_messages_nodejs
 basics_generate_messages_nodejs: /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/msg/Complex.js
+basics_generate_messages_nodejs: /home/andromeda/GitHub/catkin_ws/devel/share/gennodejs/ros/basics/srv/WordCount.js
 basics_generate_messages_nodejs: basics/CMakeFiles/basics_generate_messages_nodejs.dir/build.make
 
 .PHONY : basics_generate_messages_nodejs
