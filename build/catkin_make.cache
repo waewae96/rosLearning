@@ -1,2 +1,2 @@
-basics
+basics:beginner_tutorials:learning_tf
 -DCATKIN_DEVEL_PREFIX=/home/andromeda/GitHub/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/andromeda/GitHub/catkin_ws/install -G Unix Makefiles
